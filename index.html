@@ -1,0 +1,118 @@
+---
+layout: default
+---
+
+<section id="portfolio">
+  <ul>
+    {% for project in site.projects %}
+    <li>
+      <a href="{{ project.url }}">
+          {% if project.thumbnail %}
+          <img src="{{ site.baseurl }}images/projects/thumbnails/{{ project.thumbnail }}"/>
+          {% endif %}
+      </a>
+    </li>
+    {% endfor %}
+  </ul>
+</section>
+
+<section id="cv">
+  <div id="cv_left">
+    <h1>Work experience</h1>
+    <ul>
+      <li>March 2010 - Present
+        <ul>
+          <li>Freelance Graphic Designer</li>
+        </ul>
+      </li>
+      <li>March 2010 - Present
+        <ul>
+          <li>Freelance Web Designer and Developer</li>
+        </ul>
+      </li>
+      <li>October 2012 - October 2013
+        <ul>
+          <li>Graphic and Web Designer</li>
+          <li class="place">Gisa Elkartea | Errenteria (Basque Country)</li>
+        </ul>
+      </li>
+    </ul>
+
+    <h1>Education</h1>
+    <ul>
+      <li>2009 - Present
+        <ul>
+          <li>Graphic and Web Design autodidact</li>
+        </ul>
+      </li>
+      <li>September 2011 - October 2013
+        <ul>
+          <li>Publishising Design and Production</li>
+          <li class="place">Ceinpro | Donostia (Basque Country)</li>
+          <li class="details">Final grade: 9.1 over 10</li>
+        </ul>
+      </li>
+    </ul>
+
+    <h1>Languages</h1>
+    <ul>
+      <li>Basque <img class="cv_arrow" src="{{ site.baseurl }}images/arrow.svg" /> <span class="black">Native</span></li>
+      <li>Spanish <img class="cv_arrow" src="{{ site.baseurl }}images/arrow.svg" /> <span class="black">Native</span></li>
+      <li>English <img class="cv_arrow" src="{{ site.baseurl }}images/arrow.svg" /> <span class="black">Professional working proficiency</span></li>
+    </ul>
+
+    <h1>Interests</h1>
+    <ul id="interests">
+      <li><img src="{{ site.baseurl }}images/debian.svg" alt="Debian" /></li>
+      <li><img src="{{ site.baseurl }}images/calligraphy.svg" alt="Calligraphy" /></li>
+      <li><img src="{{ site.baseurl }}images/serigraph.svg" alt="Screen printing" /></li>
+      <li><img src="{{ site.baseurl }}images/crafts.svg" alt="Crafts" /></li>
+      <li><img src="{{ site.baseurl }}images/tea.svg" alt="Coffee and tea" /></li>
+      <li><img src="{{ site.baseurl }}images/game.svg" alt="Games" /></li>
+      <li><img src="{{ site.baseurl }}images/driving.svg" alt="Driving" /></li>
+      <li><img src="{{ site.baseurl }}images/music.svg" alt="Music" /></li>
+    </ul>
+
+  </div>
+
+  <div id="cv_right">
+    <h1>Professional skills</h1>
+    <ul id="professional">
+      <li><img src="{{ site.baseurl }}images/web_design.svg" alt="Web design 95" /></li>
+      <li><img src="{{ site.baseurl }}images/identity.svg" alt="Advertising 90" /></li>
+      <li><img src="{{ site.baseurl }}images/develop.svg" alt="Front-end Develop 70" /></li>
+      <li><img src="{{ site.baseurl }}images/photography.svg" alt="Photography 50" /></li>
+    </ul>
+
+    <ul id="skills">
+      <li>Graphic design software
+        <ul>
+          <li><h3>Inkscape | Illustrator</h3> <progress value="95" max="100"></progress></li>
+          <li><h3>Gimp | Photoshop</h3> <progress value="90" max="100"></progress></li>
+          <li><h3>Darktable | Lightroom</h3> <progress value="90" max="100"></progress></li>
+          <li><h3>Scribus | InDesign</h3> <progress value="75" max="100"></progress></li>
+        </ul>
+      </li>
+
+      <li>Web design software
+        <ul>
+          <li><h3>HTML | HTML5</h3> <progress value="95" max="100"></progress></li>
+          <li><h3>CSS | CSS3</h3> <progress value="95" max="100"></progress></li>
+          <li><h3>Javascript</h3> <progress value="15" max="100"></progress></li>
+          <li><h3>Sass | Compass</h3> <progress value="90" max="100"></progress></li>
+          <li><h3>Django templates</h3> <progress value="85" max="100"></progress></li>
+          <li><h3>Frameworks</h3> <progress value="90" max="100"></progress></li>
+          <li><h3>Template engines</h3> <progress value="80" max="100"></progress></li>
+          <li><h3>Git</h3> <progress value="85" max="100"></progress></li>
+        </ul>
+      </li>
+    </ul>
+
+    <h1>Projects</h1>
+    <ul>
+      <li><a href="http://github.com/iunetrecet">Github</a></li>
+      <li><a href="http://flickr.com/photos/iunetrecet">Flickr</a></li>
+      <li><a href="https://www.linkedin.com/pub/iune-trecet-obeso/a6/b14/7bb">Linkedin</a></li>
+    </ul>
+  </div>
+</section>

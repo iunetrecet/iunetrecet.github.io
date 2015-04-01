@@ -1,0 +1,53 @@
+aside
+  background: $darkgrey
+  color: white
+  padding: 1.5em
+  box-sizing: border-box
+  width: 100%
+  @media #{$medium-up}
+    position: fixed
+    height: 100%
+    width: 30%
+  @media screen and (max-height: 45em)
+    overflow-y: scroll
+  section#about_me
+    header
+      img
+        width: 40%
+        display: block
+        margin: 1rem auto
+      h1
+        text-align: center
+    p
+      font-size: 1rem
+      text-align: justify
+      @media #{$medium-only}
+        font-size: .8rem
+    span.red
+      font-size: 1.5rem
+  footer
+    a#write_me
+      display: block
+      margin: 30% auto 5% auto
+      border: .15em solid white
+      color: white
+      border-radius: .4em
+      padding: .5em 1em
+      text-decoration: none
+      text-align: center
+      width: -moz-fit-content
+      width: fit-content
+      font-size: 1.1rem
+    img#license
+      width: 25%
+      display: block
+      margin: 1em auto
+
+h2#ProjectTitle
+  font-family: $serif
+  color: $red
+  margin-bottom: .5em
+p#ProjectLicense
+  color: grey
+  font-size: .7rem !important
+

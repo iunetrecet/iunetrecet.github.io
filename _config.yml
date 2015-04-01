@@ -1,0 +1,32 @@
+# General
+title: iune
+description: Libre graphic designer
+author:
+    name: Iune Trecet Obeso
+    email: contact@iune.info
+    github: iunetrecet
+    flickr: https://flickr.com/photos/iunetrecet/
+timezone: "Europe/Paris"
+
+# Collections
+collections:
+    projects:
+        output: true
+
+
+# URLs
+baseurl: "/"
+production_url: http://iune.info/
+permalink: /:categories/:year/:month/:day/:title
+
+# Jekyll
+exclude: [".rvmrc", ".rbenv-version", "Rakefile", "vendor"]
+excerpt_separator: "\n"
+highlighter: true
+markdown: redcarpet
+sass:
+    sass_dir: _sass
+    style: :compressed
+redcarpet:
+    extensions: ["tables", "autolink", "fenced_code_blocks", "superscript",
+                "quote", "footnotes"]
