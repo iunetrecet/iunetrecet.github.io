@@ -18,6 +18,7 @@ collections:
 baseurl: "/"
 production_url: http://iune.info/
 permalink: /:categories/:year/:month/:day/:title
+static_url: https://github.com/iunetrecet/iune_static/raw/master/
 
 # Jekyll
 exclude: [".rvmrc", ".rbenv-version", "Rakefile", "vendor"]
@@ -30,3 +31,4 @@ sass:
 redcarpet:
     extensions: ["tables", "autolink", "fenced_code_blocks", "superscript",
                 "quote", "footnotes"]
+

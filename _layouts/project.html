@@ -5,15 +5,15 @@ layout: default
 <section id="project">
   {% if page.images %}
   <section id="gallery">
-    <image class="arrow prev" alt="prev" src="{{ site.baseurl }}images/arrows.svg" />
+    <img class="arrow prev" alt="prev" src="{{ site.baseurl }}images/arrows.svg" />
 		<div id="gallery_images">
 			<div id="image">
 				{% for image in page.images %}
-				<img src="{{ site.baseurl	}}images/projects/images/{{ image }}"/>
+				<img src="{{ site.static_url	}}images/projects/images/{{ image }}"/>
 				{% endfor %}
 			</div>
 		</div>
-    <image class="arrow next" alt="next" src="{{ site.baseurl }}images/arrows.svg" />
+    <img class="arrow next" alt="next" src="{{ site.baseurl }}images/arrows.svg" />
   </section>
   {% endif %}
 
