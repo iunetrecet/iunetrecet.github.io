@@ -18,7 +18,7 @@ collections:
 baseurl: "/"
 production_url: http://iune.info/
 permalink: /:categories/:year/:month/:day/:title
-static_url: https://github.com/iunetrecet/iune_static/raw/master/
+static_url: https://github.com/iunetrecet/iune_project_images/raw/master/projects/
 
 # Jekyll
 exclude: [".rvmrc", ".rbenv-version", "Rakefile", "vendor"]
