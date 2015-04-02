@@ -7,11 +7,9 @@ layout: default
   <section id="gallery">
     <img class="arrow prev" alt="prev" src="{{ site.baseurl }}images/arrows.svg" />
 		<div id="gallery_images">
-			<div id="image">
-				{% for image in page.images %}
-				<img src="{{ site.static_url	}}images/{{ image }}"/>
-				{% endfor %}
-			</div>
+      {% for image in page.images %}
+      <img id="project_image" src="{{ site.static_url	}}images/{{ image }}"/>
+      {% endfor %}
 		</div>
     <img class="arrow next" alt="next" src="{{ site.baseurl }}images/arrows.svg" />
   </section>
