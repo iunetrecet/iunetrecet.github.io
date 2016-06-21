@@ -6,113 +6,95 @@ layout: default
   <ul>
     {% for project in site.projects %}
     <li>
-      <a href="{{ project.url }}">
-          {% if project.thumbnail %}
-          <img src="{{ site.static_url }}thumbnails/{{ project.thumbnail }}"/>
-          {% endif %}
-      </a>
+      {% if project.thumbnail %}
+      <img src="{{ site.static_url }}thumbnails/{{ project.thumbnail }}"/>
+      {% endif %}
+      <div class="projectDescription">
+        <h1>{{ project.title }}</h1>
+        <h2>{{ project.subtitle }}</h2>
+        <p>{{ project.content }}</p>
+      </div>
+      <a href="{{ content.link }}"><span class="line"></span>joan web orrira</a>
     </li>
     {% endfor %}
   </ul>
 </section>
 
-<section id="cv">
-  <div id="cv_left">
-    <h1>Work experience</h1>
-    <ul>
-      <li>March 2010 - Present
-        <ul>
-          <li>Freelance Graphic Designer</li>
-        </ul>
-      </li>
-      <li>March 2010 - Present
-        <ul>
-          <li>Freelance Web Designer and Developer</li>
-        </ul>
-      </li>
-      <li>October 2012 - October 2013
-        <ul>
-          <li>Graphic and Web Designer</li>
-          <li class="place">Gisa Elkartea | Errenteria (Basque Country)</li>
-        </ul>
-      </li>
-    </ul>
+<section id="services">
+  <ul>
+    <li>
+      <img src="{{ site.baseurl }}images/web.svg"/>
+      <h1>web diseinua</h1>
+      <ul>
+        <li>bla</li>
+        <li>bla</li>
+        <li>bla</li>
+        <li>bla</li>
+      </ul>
+    </li>
+    <li>
+      <img src="{{ site.baseurl }}images/graphic.svg"/>
+      <h1>diseinu grafikoa</h1>
+      <ul>
+        <li>bla</li>
+        <li>bla</li>
+        <li>bla</li>
+        <li>bla</li>
+      </ul>
+    </li>
+    <li>
+      <img src="{{ site.baseurl }}images/multimedia.svg"/>
+      <h1>multimedia</h1>
+      <ul>
+        <li>bla</li>
+        <li>bla</li>
+        <li>bla</li>
+        <li>bla</li>
+      </ul>
+    </li>
+    <li>
+      <img src="{{ site.baseurl }}images/formation.svg"/>
+      <h1>aholkularitza eta formakuntza</h1>
+      <ul>
+        <li>bla</li>
+        <li>bla</li>
+        <li>bla</li>
+        <li>bla</li>
+      </ul>
+    </li>
+  </ul>
+</section>
 
-    <h1>Education</h1>
-    <ul>
-      <li>2009 - Present
-        <ul>
-          <li>Graphic and Web Design autodidact</li>
-        </ul>
-      </li>
-      <li>September 2011 - October 2013
-        <ul>
-          <li>Publishing Design and Production</li>
-          <li class="place">Ceinpro | Donostia (Basque Country)</li>
-          <li class="details">Final grade: 9.1 over 10</li>
-        </ul>
-      </li>
-    </ul>
+<section id="about">
+  <img src="{{ site.baseurl }}images/me.svg" />
+  <h1>Iune Trecet Obeso</h1>
+  <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam malesuada enim velit, ut laoreet arcu tincidunt vel. Quisque non arcu commodo purus porta viverra. Mauris ac lacus odio. Nulla finibus lectus ac blandit vulputate. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum libero urna, ornare et ipsum eu, accumsan volutpat dolor. Proin vulputate fringilla quam sit amet dictum.</p>
 
-    <h1>Languages</h1>
-    <ul>
-      <li>Basque <img class="cv_arrow" src="{{ site.baseurl }}images/cv/arrow.svg" /> <span class="black">Native</span></li>
-      <li>Spanish <img class="cv_arrow" src="{{ site.baseurl }}images/cv/arrow.svg" /> <span class="black">Native</span></li>
-      <li>English <img class="cv_arrow" src="{{ site.baseurl }}images/cv/arrow.svg" /> <span class="black">Professional working proficiency</span></li>
-    </ul>
+  <p>Nullam quis mollis orci. Donec at enim ut ex pretium lacinia laoreet nec lacus. Phasellus semper pharetra turpis sit amet venenatis. Duis urna quam, rhoncus ut porta eu, condimentum et mi. Maecenas sollicitudin, velit eget consequat convallis, ligula nulla placerat elit, et dignissim eros ex eget lectus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Morbi vitae pellentesque dolor. Proin et porta tortor, nec luctus orci. Ut interdum eros eget arcu scelerisque, quis ornare mauris cursus. Donec libero arcu, placerat id lacinia rhoncus, blandit maximus magna. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Sed varius tellus sed neque consequat consectetur.</p>
+  <ul>
+    <li><img src="{{ site.baseurl }}images/debian.svg" /></li>
+    <li><img src="{{ site.baseurl }}images/caligraphy.svg" /></li>
+    <li><img src="{{ site.baseurl }}images/serigraph.svg" /></li>
+    <li><img src="{{ site.baseurl }}images/craft.svg" /></li>
+    <li><img src="{{ site.baseurl }}images/coffee.svg" /></li>
+    <li><img src="{{ site.baseurl }}images/games.svg" /></li>
+    <li><img src="{{ site.baseurl }}images/driving.svg" /></li>
+    <li><img src="{{ site.baseurl }}images/music.svg" /></li>
+  </ul>
+</section>
 
-    <h1>Interests</h1>
-    <ul id="interests">
-      <li><img src="{{ site.baseurl }}images/cv/debian.svg" alt="Debian" /></li>
-      <li><img src="{{ site.baseurl }}images/cv/calligraphy.svg" alt="Calligraphy" /></li>
-      <li><img src="{{ site.baseurl }}images/cv/serigraph.svg" alt="Screen printing" /></li>
-      <li><img src="{{ site.baseurl }}images/cv/crafts.svg" alt="Crafts" /></li>
-      <li><img src="{{ site.baseurl }}images/cv/tea.svg" alt="Coffee and tea" /></li>
-      <li><img src="{{ site.baseurl }}images/cv/game.svg" alt="Games" /></li>
-      <li><img src="{{ site.baseurl }}images/cv/driving.svg" alt="Driving" /></li>
-      <li><img src="{{ site.baseurl }}images/cv/music.svg" alt="Music" /></li>
-    </ul>
+<section id="lab">
+  <img src="{{ site.baseurl }}images/lab.svg" />
+  <ul>
+    <li><a href="">This is a post</a></li>
+    <li><a href="">This is a post</a></li>
+    <li><a href="">This is a post</a></li>
+    <li><a href="">This is a post</a></li>
+  </ul>
+  <a href=""><span class="line"></span>Ikusi esperimentu gehiago</a>
+</section>
 
-  </div>
-
-  <div id="cv_right">
-    <h1>Professional skills</h1>
-    <ul id="professional">
-      <li><img src="{{ site.baseurl }}images/cv/web_design.svg" alt="Web design 95" /></li>
-      <li><img src="{{ site.baseurl }}images/cv/identity.svg" alt="Advertising 90" /></li>
-      <li><img src="{{ site.baseurl }}images/cv/develop.svg" alt="Front-end Develop 70" /></li>
-      <li><img src="{{ site.baseurl }}images/cv/photography.svg" alt="Photography 50" /></li>
-    </ul>
-
-    <ul id="skills">
-      <li>Graphic design software
-        <ul>
-          <li><h3>Inkscape | Illustrator</h3> <progress value="95" max="100"></progress></li>
-          <li><h3>Gimp | Photoshop</h3> <progress value="90" max="100"></progress></li>
-          <li><h3>Darktable | Lightroom</h3> <progress value="90" max="100"></progress></li>
-          <li><h3>Scribus | InDesign</h3> <progress value="75" max="100"></progress></li>
-        </ul>
-      </li>
-
-      <li>Web design software
-        <ul>
-          <li><h3>HTML | HTML5</h3> <progress value="95" max="100"></progress></li>
-          <li><h3>CSS | CSS3</h3> <progress value="95" max="100"></progress></li>
-          <li><h3>Javascript</h3> <progress value="15" max="100"></progress></li>
-          <li><h3>Sass | Compass</h3> <progress value="90" max="100"></progress></li>
-          <li><h3>Django templates</h3> <progress value="85" max="100"></progress></li>
-          <li><h3>Frameworks</h3> <progress value="90" max="100"></progress></li>
-          <li><h3>Template engines</h3> <progress value="80" max="100"></progress></li>
-          <li><h3>Git</h3> <progress value="85" max="100"></progress></li>
-        </ul>
-      </li>
-    </ul>
-
-    <h1>Projects</h1>
-    <ul>
-      <li><a href="http://github.com/iunetrecet">Github</a></li>
-      <li><a href="http://flickr.com/photos/iunetrecet">Flickr</a></li>
-      <li><a href="https://www.linkedin.com/pub/iune-trecet-obeso/a6/b14/7bb">Linkedin</a></li>
-    </ul>
-  </div>
+<section id="contact">
+  <h1>Diseinuren bat behar al duzu?</h1>
+  <a href="mailto:contact@iune.info">idatzi nazazu!</a>
 </section>

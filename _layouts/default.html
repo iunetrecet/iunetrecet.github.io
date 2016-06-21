@@ -24,31 +24,22 @@
 
 
   <body>
-    <aside>
-      <section id="about_me">
-        <header>
-          <a href="/"><img alt="iune" src="{{ site.baseurl }}images/iune.png" /></a>
-          <h1><a href="/"><img alt="iune" src="{{ site.baseurl }}images/iune.svg" /></a></h1>
-        </header>
-        {% if page.layout == 'project' %}
-        <header>
-          <h2 id="ProjectTitle">{{ page.title }}</h2>
-          <p id="ProjectLicense">License: {{ page.license }}</p>
-        </header>
-        <div id="ProjectContent">{{ page.content }}</div>
-        {% else %}
-          {% include about.html %}
-        {% endif %}
-      </section>
-      <footer>
-        <a id="write_me" href="mailto:contact@iune.info">Write me!</a>
-        <img id="license" src="{{ site.baseurl }}images/cc-by-sa.svg" alt="cc-by-sa" />
-      </footer>
-    </aside>
+    <header>
+      <h1><a href="/"><img alt="iune" src="{{ site.baseurl }}images/iune.svg" /></a></h1>
+      <ul id="social">
+        <li><a href="https://github.com/iunetrecet"><img src="{{ site.baseurl }}images/github_alt.svg" /></a></li>
+        <li><a href="https://www.flickr.com/photos/iunetrecet"><img src="{{ site.baseurl }}images/flickr.svg" /></a></li>
+        <li><a href="mailto:contact@iune.iune.info"><img src="{{ site.baseurl }}images/email.svg" /></a></li>
+        <li><a href="">es</a></li>
+      </ul>
+    </header>
 
     <main>
       {{ content }}
     </main>
 
+    <footer>
+      <img id="license" src="{{ site.baseurl }}images/cc-by-sa.svg" alt="cc-by-sa" />
+    </footer>
   </body>
 </html>
