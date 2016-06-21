@@ -1,13 +1,12 @@
 ---
 layout: default
 ---
-
 <section id="portfolio">
   <ul>
     {% for project in site.projects %}
     <li>
       {% if project.thumbnail %}
-      <img src="{{ site.static_url }}thumbnails/{{ project.thumbnail }}"/>
+      <img src="{{ site.static_url }}"/>
       {% endif %}
       <div class="projectDescription">
         <h1>{{ project.title }}</h1>
