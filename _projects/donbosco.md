@@ -6,6 +6,7 @@ thumbnail: "donbosco.png"
 license: "cc-by-sa"
 images:
     - "donbosco.jpg"
+link: "http://iune.info/projects/donbosco.html"
 ---
 
 Don Bosco Ibilaldia, kotxe klasikoen arteko rallya da eta kartel lehiaketa egin zuten. Nahiz eta nire kartela ez zen
