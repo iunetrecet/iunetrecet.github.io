@@ -1,17 +1,18 @@
 ---
 layout: project
 title: "Antxetamedia"
-subtitle: "Web of a community radio"
+subtitle: "Antxeta Irratiarentzako webgunea"
 thumbnail: "antxetamedia.png"
 license: "GPLv3"
-link: "http://antxetamedia.info/"
-images:
-    - "antxetamedia.jpg"
-    - "antxetamedia1.jpg"
+link: "http://beta.antxetamedia.info/"
 ---
 
-Antxeta Irratia is a community radio from the Bidasoa valley.
+Antxeta Irratia Bidasoako irrati komunitario bat da.
 
-Antxeta Irratia decided to make a new website because they used to have a blog but now have too much information.
+Antxeta Irratiarentzat egin nuen nere lehenengo webgunea, egungoaren aurrekoa. <a href="http://iragana.antxetamedia.info/">Proiektu honetan</a> eman nituen web diseinuan lehenengo pausoak.
 
-This was my first project as web designer and it was a very big challenge for me. There was a lot information on the first page, but it had to be very neat. I though to make a third column page for a better distribution of the content. It has sober colors to give importance to the images and clean readability for the content.
+Urte batzuk beranduago, webgunea berregitea erabaki genuen, behar berriak zirela eta egitura aldatuz eta diseinua egungo
+itxurara egokituz. Diseinuari dagokionez, egitura argiago ikusteko helburua izan du proiektuak, honetarako edukia
+txarteletan banatuaz. Itxura formal baina alaia isladatu nahi nuen ere, grisak eta berde argiaren arteko konbinazioa
+erabiliz.
+
