@@ -1,7 +1,7 @@
 ---
 layout: project
 title: "Gatzagi"
-subtitle: "Identity of a cheese shop"
+subtitle: "Gazta denda baten identitatea"
 thumbnail: "gatzagi.png"
 license: "cc-by-sa"
 images:
@@ -9,13 +9,9 @@ images:
     - "gatzagi1.png"
     - "gatzagi2.png"
     - "gatzagi3.png"
-    - "gatzagi4.png"
-    - "gatzagi5.png"
-    - "gatzagi6.png"
-    - "gatzagi7.png"
 ---
 
-Gatzagi is a cheese shop from Donostia. The shop has a retro look, with wooden furniture and metal net.
+Gatzagi Donostiako gazta denda bat izan behar zen, baina tamalez, proiektuak ez zuen aurrera egin. Gatzagia esnea
+mamitzeko (kuajatzeko) erabiltzen den osagarria da.
 
-The mark also has a retro look with a vintage drawing of a cheese but also has a modern look using that type and the
-dark grey color.
+Denda vintage itxura zuen, egurrezko altzariak eta metalezko sareekin. Markak ere vintage itxura berdina izan behar zuen, eta horretarako gaztaren marrazki vintage-a erabili dut, baina itxura modernoago bat eman diot tipografiaren bidez eta kolore grisarekin.
