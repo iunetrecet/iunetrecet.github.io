@@ -6,14 +6,14 @@ layout: default
     {% for project in site.projects %}
     <li>
       {% if project.thumbnail %}
-      <img src="{{ site.static_url }}"/>
+      <img src="{{ site.static_url }}thumbnails/{{ project.thumbnail }}"/>
       {% endif %}
       <div class="projectDescription">
         <h1>{{ project.title }}</h1>
         <h2>{{ project.subtitle }}</h2>
         <p>{{ project.content }}</p>
+        <a href="{{ content.link }}"><span class="line"></span>joan proiektura</a>
       </div>
-      <a href="{{ content.link }}"><span class="line"></span>joan web orrira</a>
     </li>
     {% endfor %}
   </ul>

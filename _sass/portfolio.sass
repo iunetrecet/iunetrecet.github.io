@@ -1,0 +1,40 @@
+#portfolio
+  background: $darkgrey
+  width: 94%
+  margin: 0 auto
+  color: white
+  ul
+    padding: 0
+    margin: 0
+    li
+      list-style: none
+      padding: 0
+      +grid-row
+      img
+        +grid-column(6, $collapse:true)
+      .projectDescription
+        padding: 3rem !important
+        +grid-column(6)
+        h1
+          font-family: $serif
+          font-size: 2.5rem
+          margin: 0 0 .2em 0
+        h2
+          color: $lightgrey
+          margin-top: 0
+          font-weight: normal
+          font-size: 1.3rem
+        a
+          color: $lightred
+          font-family: $smallcaps
+          text-decoration: none
+          font-size: 1.2rem
+          border-color: $lightred
+        .line
+          margin-right: .5em
+      &:nth-child(even)
+        text-align: right
+        img
+          +grid-column(6, $float:right, $collapse:true)
+
+
