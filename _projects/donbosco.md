@@ -1,22 +1,15 @@
 ---
 layout: project
 title: "Don bosco ibilaldia"
-subtitle: "Poster for the rally of Don Bosco"
+subtitle: "Don Bosco rallyrako kartela"
 thumbnail: "donbosco.png"
 license: "cc-by-sa"
 images:
     - "donbosco.jpg"
-    - "donbosco1.jpg"
-    - "donbosco2.jpg"
-    - "donbosco3.jpg"
-    - "donbosco4.jpg"
-    - "donbosco5.jpg"
-    - "donbosco6.jpg"
-    - "donbosco7.jpg"
 ---
 
-Don Bosco Ibilaldia, a rally of classic cars, made a competition for their poster.
+Don Bosco Ibilaldia, kotxe klasikoen arteko rallya da eta kartel lehiaketa egin zuten. Nahiz eta nire kartela ez zen
+irabazle suertatu, hamar hoberenen artean aukeratua izan zen eta egunean, helmugan, erakusketan jarri zuten.
 
-The poster presented by me was chosen for the top ten, and exposed at the end of the rally.
-
-For the design of the poster I decided to make a tribute to the Seat 600, a spanish icon from the 60s. It is all colorful and flashy, like the cars and the period itself.
+Kartelaren diseinurako, Seat 600aren tributoa egitera erabaki nuen, 60. hamarkadako ikono izan baitzen. Kartel koloretsu
+eta deigarria da, kartela eta denboraldiaren antzera.
