@@ -3,35 +3,22 @@ layout: default
 ---
 
 <section id="project">
+
+  <article class="projectDescription">
+      <h1>{{ page.title }}</h1>
+      <h2>{{ page.subtitle }}</h2>
+      <div class="with_borders">
+      <p>{{ content }}</p>
+      {% if page.license %}
+      <p class="license">License: {{ page.license }}</p>
+      {% endif %}
+  </article>
+
   {% if page.images %}
-  <section id="gallery">
-    <img class="arrow prev" alt="prev" src="{{ site.baseurl }}images/arrows.svg" />
-		<div id="gallery_images">
       {% for image in page.images %}
       <img id="project_image" src="{{ site.static_url	}}images/{{ image }}"/>
       {% endfor %}
-		</div>
-    <img class="arrow next" alt="next" src="{{ site.baseurl }}images/arrows.svg" />
   </section>
   {% endif %}
-
-  <article>
-    <header>
-      <hgroup>
-        <h1>{{ page.title }}</h1>
-        <h2>{{ page.subtitle }}</h2>
-      </hgroup>
-      <div class="with_borders">
-        {% if page.link %}
-        <a class="project_link" href="{{ page.link }}">{{ page.link }}</a>
-        {% endif %}
-        {% if page.license %}
-        <p>License: {{ page.license }}</p>
-        {% endif %}
-      </div>
-    </header>
-    <div id="article_content">{{ content }}</div>
-  </article>
-
 </section>
 
