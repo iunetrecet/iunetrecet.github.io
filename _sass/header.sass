@@ -33,12 +33,25 @@ header
       vertical-align: middle
       padding: .5%
       a
-        color: black
+        color: $red
         font-family: $smallcaps
         text-decoration: none
         font-weight: bold
         font-size: 1.6em
         vertical-align: middle
+        position: relative
+        &:hover
+          #noTraslation
+            display: block
       img
         width: 1.5em
 
+#noTraslation
+  position: absolute
+  top: 1.5em
+  right: 0
+  font-family: $sans
+  font-size: 1rem
+  width: 20em
+  display: none
+  color: black
