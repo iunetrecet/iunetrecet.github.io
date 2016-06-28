@@ -6,9 +6,6 @@ thumbnail: "gatzagi.png"
 license: "cc-by-sa"
 images:
     - "gatzagi.png"
-    - "gatzagi1.png"
-    - "gatzagi2.png"
-    - "gatzagi3.png"
 ---
 
 Gatzagi Donostiako gazta denda bat izan behar zen, baina tamalez, proiektuak ez zuen aurrera egin. Gatzagia esnea

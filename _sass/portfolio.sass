@@ -12,15 +12,21 @@
       +grid-row
       img
         +grid-column(6, $collapse:true)
+        @media #{$small-only}
+          +grid-column(12, $collapse:true)
       &:nth-child(even)
         text-align: right
         img
           +grid-column(6, $float:right, $collapse:true)
+          @media #{$small-only}
+            +grid-column(12, $collapse:true)
 
 
 .projectDescription
   padding: 3rem !important
   +grid-column(6)
+  @media #{$small-only}
+    +grid-column(12)
   h1
     font-family: $serif
     font-size: 2.5rem
