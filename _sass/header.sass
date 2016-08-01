@@ -1,15 +1,10 @@
 header
   box-sizing: border-box
-  position: absolute
-  top: 0
-  right: 0
   width: 100%
+  background: $lightred
   @media #{$small-only}
     position: static
   img#logo
-    position: absolute
-    top: 0
-    left: 0
     width: 15%
     padding: .5em
     @media #{$small-only}
@@ -45,6 +40,12 @@ header
             display: block
       img
         width: 1.5em
+  h2
+    text-transform: uppercase
+    color: white
+    text-align: center
+    font-size: 3.5rem
+    padding-bottom: 3em
 
 #noTraslation
   position: absolute
