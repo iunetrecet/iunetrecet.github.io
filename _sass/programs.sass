@@ -11,12 +11,11 @@
     font-family: $serif
   ul
     padding: 0 10%
+    @media #{$small-only}
+      padding: 0
     li
       width: 16%
-      margin: 0 2%
-      @media #{$small-only}
-        width: 100%
-        margin-bottom: 4%
+      margin: 0 4%
       a
         color: white
         font-size: 1.2em

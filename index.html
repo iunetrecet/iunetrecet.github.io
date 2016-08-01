@@ -2,32 +2,6 @@
 layout: default
 ---
 
-<section id="home">
-<div id="homeText">
-  <h1>Diseinu askeak<br/>kultura askearen alde.</h1>
-  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ac ex quis nunc aliquet sodales vel sit amet erat. Fusce tincidunt pellentesque dictum. Sed viverra magna arcu, eget aliquet risus tempus non. Nullam eget dui consequat est pharetra faucibus. Ut eu elit ullamcorper, hendrerit ante at, commodo quam. Suspendisse ultricies vitae sem et congue. Pellentesque commodo sem at arcu tristique maximus. Praesent accumsan diam non suscipit dictum. Mauris a augue feugiat, hendrerit lectus ut, accumsan nisi. In hac habitasse platea dictumst. Aenean justo leo, aliquet et vehicula id, ornare at sem.</p>
-</div>
-<div id="homeImage"><img src="{{ site.baseurl }}images/txanogorritxu.svg"/></div>
-</section>
-
-<section id="portfolio">
-  <ul>
-    {% for project in site.projects %}
-    <li>
-      {% if project.thumbnail %}
-      <img src="{{ site.static_url }}thumbnails/{{ project.thumbnail }}"/>
-      {% endif %}
-      <div class="projectDescription">
-        <h1>{{ project.title }}</h1>
-        <h2>{{ project.subtitle }}</h2>
-        <p>{{ project.content }}</p>
-        <a class="redLink" href="{{ project.link }}"><span class="line"></span>joan proiektura</a>
-      </div>
-    </li>
-    {% endfor %}
-  </ul>
-</section>
-
 <section id="services">
   <ul>
     <li class="service">
@@ -74,12 +48,29 @@ layout: default
   </ul>
 </section>
 
+<section id="portfolio">
+  <ul>
+    {% for project in site.projects %}
+    <li>
+      {% if project.thumbnail %}
+      <img src="{{ site.static_url }}thumbnails/{{ project.thumbnail }}"/>
+      {% endif %}
+      <div class="projectDescription">
+        <h1>{{ project.title }}</h1>
+        <h2>{{ project.subtitle }}</h2>
+        <p>{{ project.content }}</p>
+        <a class="redLink" href="{{ project.link }}"><span class="line"></span>joan proiektura</a>
+      </div>
+    </li>
+    {% endfor %}
+  </ul>
+</section>
+
+
 <section id="programs">
   <h1>Erabiltzen ditudan programak</h1>
   <ul class="iconList">
     <li><a href="https://www.djangoproject.com/"><img src="{{ site.baseurl }}images/django.svg" alt="django" /><span>Django</span></a></li>
-    <li><a href="https://drupal.org/"><img src="{{ site.baseurl }}images/drupal.svg" alt="drupal" /><span>Drupal</span></a></li>
-    <li><a href="https://wordpress.org"><img src="{{ site.baseurl }}images/wordpress.svg" alt="wordpress" /><span>WordPress</span></a></li>
     <li><a href="https://sass-lang.com"><img src="{{ site.baseurl }}images/sass.svg" alt="sass" /><span>Sass</span></a></li>
     <li><a href="https://git-scm.com/"><img src="{{ site.baseurl }}images/git.svg" alt="git" /><span>Git</span></a></li>
     <li><a href="https://inkscape.org"><img src="{{ site.baseurl }}images/inkscape.svg" alt="inkscape" /><span>Inkscape</span></a></li>
