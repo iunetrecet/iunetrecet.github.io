@@ -1,12 +1,14 @@
 ---
 layout: project
 title: "Donibane"
-subtitle: "Illustration of a lovely village"
+subtitle: "Herri xarmagarri baten ilustrazioa"
 thumbnail: "donibane.png"
 license: "cc-by-sa"
 images:
     - "donibane.jpg"
 link: "http://iune.info/projects/donibane.html"
+lang: eu
+ref: donibane
 ---
 
 Nahiz eta inoiz egin dudan proiektu gogorrenetarikoa izan, politena da.

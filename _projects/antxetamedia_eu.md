@@ -5,6 +5,8 @@ subtitle: "Antxeta Irratiarentzako webgunea"
 thumbnail: "antxetamedia.png"
 license: "GPLv3"
 link: "http://beta.antxetamedia.info/"
+lang: eu
+ref: antxetamedia
 ---
 
 Antxeta Irratia Bidasoako irrati komunitario bat da.

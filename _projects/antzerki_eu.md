@@ -7,6 +7,8 @@ license: "cc-by-sa"
 images:
     - "zerua.png"
 link: "http://iune.info/projects/antzerki.html"
+lang: eu
+ref: antzerkia
 ---
 
 Antzerki maratoia postTxirrinkaren barnean sartzen den jarduera bat da.

@@ -5,6 +5,8 @@ subtitle: "Behe Bidasoako kirola, euskaraz"
 thumbnail: "kiroletik.png"
 license: "GPLv3"
 link: "http://kiroletik.eus/"
+lang: eu
+ref: kiroletik
 ---
 
 Kiroletik Behe Bidasoako kirolei buruzko blog arrakastatsu bat zuen, eta Euskadiko blog hoberenaren lehiaketa
