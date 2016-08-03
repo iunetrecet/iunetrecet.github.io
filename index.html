@@ -3,50 +3,50 @@ layout: default
 ---
 
 <section id="home">
-  <h2>Diseinu askeak<br/>kultura askearen alde.</h2>
+  <h2>{{ site.t[page.lang].home }}</h2>
 </section>
 
 <section id="services">
   <ul>
     <li class="service">
       <img src="{{ site.baseurl }}images/web.svg"/>
-      <h1>web diseinua</h1>
+      <h1>{{ site.t[page.lang].webdesign }}</h1>
       <ul>
-        <li>Web diseinua</li>
-        <li>Blog diseinua</li>
-        <li>Denda online diseinua</li>
+        <li>{{ site.t[page.lang].webdesign }}</li>
+        <li>{{ site.t[page.lang].blogdesign }}</li>
+        <li>{{ site.t[page.lang].shopdesign }}</li>
       </ul>
     </li>
     <li class="service">
       <img src="{{ site.baseurl }}images/graphic.svg"/>
-      <h1>diseinu grafikoa</h1>
+      <h1>{{ site.t[page.lang].graphicdesign }}</h1>
       <ul>
-        <li>Identita korporatiboak</li>
-        <li>Karteleria</li>
-        <li>Seinaleak eta errotulazioa</li>
-        <li>Liburuen eta ebooken maketazioa</li>
-        <li>Erakuslehioen diseinua</li>
-        <li>Merchandising</li>
+        <li>{{ site.t[page.lang].identity }}</li>
+        <li>{{ site.t[page.lang].poster }}</li>
+        <li>{{ site.t[page.lang].signal }}</li>
+        <li>{{ site.t[page.lang].book }}</li>
+        <li>{{ site.t[page.lang].window }}</li>
+        <li>{{ site.t[page.lang].merchandising }}</li>
 
       </ul>
     </li>
     <li class="service">
       <img src="{{ site.baseurl }}images/multimedia.svg"/>
-      <h1>multimedia</h1>
+      <h1>{{ site.t[page.lang].multimedia }}</h1>
       <ul>
-        <li>Argazkigintza</li>
-        <li>Infografiak</li>
-        <li>Aurkezpenak</li>
+        <li>{{ site.t[page.lang].photo }}</li>
+        <li>{{ site.t[page.lang].infography }}</li>
+        <li>{{ site.t[page.lang].presentation }}</li>
       </ul>
     </li>
     <li class="service">
       <img src="{{ site.baseurl }}images/formation.svg"/>
-      <h1>aholkularitza eta formakuntza</h1>
+      <h1>{{ site.t[page.lang].formation }}</h1>
       <ul>
-        <li>Lizentzien aholkularitza</li>
-        <li>Diseinu grafikoa software askean formakuntza</li>
-        <li>Argazkien ukitzean formakuntza</li>
-        <li>Web diseinuan formakuntza</li>
+        <li>{{ site.t[page.lang].license }}</li>
+        <li>{{ site.t[page.lang].freeformation }}</li>
+        <li>{{ site.t[page.lang].photoformation }}</li>
+        <li>{{ site.t[page.lang].webformation }}</li>
       </ul>
     </li>
   </ul>
@@ -63,7 +63,7 @@ layout: default
         <h1>{{ project.title }}</h1>
         <h2>{{ project.subtitle }}</h2>
         <p>{{ project.content }}</p>
-        <a class="redLink" href="{{ project.link }}"><span class="line"></span>joan proiektura</a>
+        <a class="redLink" href="{{ project.link }}"><span class="line"></span>{{ site.t[page.lang].goproject }}</a>
       </div>
     </li>
     {% endfor %}
@@ -72,7 +72,7 @@ layout: default
 
 
 <section id="programs">
-  <h1>Erabiltzen ditudan programak</h1>
+  <h1>{{ site.t[page.lang].program }}</h1>
   <ul class="iconList">
     <li><a href="https://www.djangoproject.com/"><img src="{{ site.baseurl }}images/django.svg" alt="django" /><span>Django</span></a></li>
     <li><a href="https://sass-lang.com"><img src="{{ site.baseurl }}images/sass.svg" alt="sass" /><span>Sass</span></a></li>
@@ -116,8 +116,8 @@ layout: default
 
 
 <section id="contact">
-  <h1>Diseinuren bat behar al duzu?</h1>
-  <a href="mailto:contact@iune.info">idatzi nazazu!</a>
+  <h1>{{ site.t[page.lang].want }}Diseinuren bat behar al duzu?</h1>
+  <a href="mailto:contact@iune.info">{{ site.t[page.lang].write }}idatzi nazazu!</a>
 </section>
 
 <!--<section id="lab">
