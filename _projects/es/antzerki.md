@@ -1,5 +1,4 @@
 ---
-layout: project
 title: "Antzerki maratoia"
 subtitle: "Cartel del maratón de teatro de la PostTxirrinka"
 thumbnail: "zerua.png"

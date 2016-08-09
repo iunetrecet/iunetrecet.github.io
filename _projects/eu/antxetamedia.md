@@ -1,5 +1,4 @@
 ---
-layout: project
 title: "Antxetamedia"
 subtitle: "Antxeta Irratiarentzako webgunea"
 thumbnail: "antxetamedia.png"

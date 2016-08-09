@@ -1,5 +1,4 @@
 ---
-layout: project
 title: "Lakaxita"
 subtitle: "Kolektiboaren webgunea"
 thumbnail: "lakaxita.png"

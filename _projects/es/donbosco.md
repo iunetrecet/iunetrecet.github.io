@@ -1,5 +1,4 @@
 ---
-layout: project
 title: "Don bosco ibilaldia"
 subtitle: "Cartel para el rally de Don Bosco"
 thumbnail: "donbosco.png"

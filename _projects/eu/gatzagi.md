@@ -1,5 +1,4 @@
 ---
-layout: project
 title: "Gatzagi"
 subtitle: "Gazta denda baten identitatea"
 thumbnail: "gatzagi.png"

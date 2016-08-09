@@ -1,5 +1,4 @@
 ---
-layout: project
 title: "Gatzagi"
 subtitle: "Identidad corporativa de una tienda de quesos"
 thumbnail: "gatzagi.png"

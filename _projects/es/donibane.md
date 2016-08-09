@@ -1,5 +1,4 @@
 ---
-layout: project
 title: "Donibane"
 subtitle: "Ilustración de un pueblo encantador"
 thumbnail: "donibane.png"

@@ -1,5 +1,4 @@
 ---
-layout: project
 title: "Donibane"
 subtitle: "Herri xarmagarri baten ilustrazioa"
 thumbnail: "donibane.png"

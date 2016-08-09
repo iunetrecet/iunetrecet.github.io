@@ -1,5 +1,4 @@
 ---
-layout: project
 title: "Kiroletik"
 subtitle: "Behe Bidasoako kirola, euskaraz"
 thumbnail: "kiroletik.png"
