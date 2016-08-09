@@ -27,7 +27,6 @@ layout: default
         <li>{{ site.t[page.lang].book }}</li>
         <li>{{ site.t[page.lang].window }}</li>
         <li>{{ site.t[page.lang].merchandising }}</li>
-
       </ul>
     </li>
     <li class="service">
@@ -89,23 +88,42 @@ layout: default
   </ul>
 </section>
 
-<section id="about">
+<section id="about" markdown="block">
   <img src="{{ site.baseurl }}images/me.svg" />
   <h1>Iune Trecet Obeso</h1>
-  <p>Ume moko bat nintzenetik, gurasoek, egia esaten badizuet amak, leku guztietara orri eta margoekin eramaten gintuzten nire ahizpa eta neri.
-    Gure jolas gogokoena hori zen, orri txuri bat hartu eta imajinazioan genituen mundu zoragarri hoiek erreal egitea.</p>
-  <p>Baina bizitzak beste alde batetara eramaten zaitu, leku grisagoetara, zurrunagoetara, mundu zoragarri horiek ahaztu egiten dituzu eta
-    mundanoagoak diren gauzei garrantzia handiago ematen diezu... honela bukatu nuen Geografiako karrera ikasten.</p>
-  <p>Karrerako hasierako urteetan ikasgaiez disfrutatu egin nuen, hala ere, segituan konturatu nintzen mapak margotzea gehiago disfrutatzen nuela
-    ikasgaiak ikastea baino.</p>
-  <p>Neguko egun batean Labkaxitako hacklabera gonbidatu ninduten pythonen programatuko genuela eta. If, for, while... uff! Ze zaila! Baina aurrea jarraitu genuen,
-    Django ikastera pasatuz. Django interesgarria egin zitzaidan, baina batez ere HTML eta CSSra iritsi ginen momentua. Orduan bai, etxean sentitu nintzen, barnean lotuta
-    zegoen Iunetxo txikia askatu egin nuen eta sormena berriro piztu gauza berrik sortzeko.</p>
-  <p>Ordurako nire ordenagailua Debian batekin nuen, pertsona burugogor bati esker eta aurrean ireki zitzaidan munduak bukaerarik ez zuela sentitu nuen. 
-    Ez nuen denbora gehiago Adobeko programak crackeatzen pasatu beharko eta denbora hori gauza berriak ikasten inbertitu nezakeen.</p>
-  <p>Nire lehenengo webgunea segituan etorri zen, lagun batek proiektu bat zuen esku artean eta ea parte hartu nahi nuen esan zidan. 
-    <a href="http://iragana.antxetamedia.info/">Antxeta Irratiko webgunea</a> izan zen lehenengoa.</p>
-  <p>Diseinu askean sartzen joan nintzen, tresnak ezagutuz eta filosofiarekin bat eginez.</p>
+
+  Ume moko bat nintzenetik, gurasoek, egia esaten badizuet amak, leku guztietara
+  orri eta margoekin eramaten gintuzten nire ahizpa eta neri.  Gure jolas
+  gogokoena hori zen, orri txuri bat hartu eta imajinazioan genituen mundu
+  zoragarri hoiek erreal egitea.
+
+  Baina bizitzak beste alde batetara eramaten zaitu, leku grisagoetara,
+  zurrunagoetara, mundu zoragarri horiek ahaztu egiten dituzu eta mundanoagoak
+  diren gauzei garrantzia handiago ematen diezu... honela bukatu nuen
+  Geografiako karrera ikasten.
+
+  Karrerako hasierako urteetan ikasgaiez disfrutatu egin nuen, hala ere,
+  segituan konturatu nintzen mapak margotzea gehiago disfrutatzen nuela
+  ikasgaiak ikastea baino.
+
+  Neguko egun batean Labkaxitako hacklabera gonbidatu ninduten pythonen
+  programatuko genuela eta. If, for, while... uff! Ze zaila! Baina aurrea jarraitu
+  genuen, Django ikastera pasatuz. Django interesgarria egin zitzaidan, baina
+  batez ere HTML eta CSSra iritsi ginen momentua. Orduan bai, etxean sentitu
+  nintzen, barnean lotuta zegoen Iunetxo txikia askatu egin nuen eta sormena
+  berriro piztu gauza berrik sortzeko.
+
+  Ordurako nire ordenagailua Debian batekin nuen, pertsona burugogor bati esker
+  eta aurrean ireki zitzaidan munduak bukaerarik ez zuela sentitu nuen.  Ez nuen
+  denbora gehiago Adobeko programak crackeatzen pasatu beharko eta denbora hori
+  gauza berriak ikasten inbertitu nezakeen.
+
+  Nire lehenengo webgunea segituan etorri zen, lagun batek proiektu bat zuen
+  esku artean eta ea parte hartu nahi nuen esan zidan. [Antxeta Irratiko
+  webgunea](http://iragana.antxetamedia.info/) izan zen lehenengoa.
+
+  Diseinu askean sartzen joan nintzen, tresnak ezagutuz eta filosofiarekin bat
+  eginez.
 
   <ul class="iconList">
     <li><img src="{{ site.baseurl }}images/debian.svg" alt="debian" /></li>
@@ -124,14 +142,3 @@ layout: default
   <h1>{{ site.t[page.lang].want }}Diseinuren bat behar al duzu?</h1>
   <a href="mailto:contact@iune.info">{{ site.t[page.lang].write }}idatzi nazazu!</a>
 </section>
-
-<!--<section id="lab">
-  <img src="{{ site.baseurl }}images/lab.svg" />
-  <ul>
-    <li><a href="">This is a post</a></li>
-    <li><a href="">This is a post</a></li>
-    <li><a href="">This is a post</a></li>
-    <li><a href="">This is a post</a></li>
-    <li><a class="redLink" href=""><span class="line"></span>Ikusi esperimentu gehiago</a>
-  </ul>
-</section>--!>
