@@ -1,144 +1,37 @@
 ---
-layout: default
+layout: list
+lang: eu
 ---
 
-<section id="home">
-  <h2>{{ site.t[page.lang].home }}</h2>
-</section>
+Ume moko bat nintzenetik, gurasoek, egia esaten badizuet amak, leku guztietara
+orri eta margoekin eramaten gintuzten nire ahizpa eta neri.  Gure jolas
+gogokoena hori zen, orri txuri bat hartu eta imajinazioan genituen mundu
+zoragarri hoiek erreal egitea.
 
-<section id="services">
-  <ul>
-    <li class="service">
-      <img src="{{ site.baseurl }}images/web.svg"/>
-      <h1>{{ site.t[page.lang].webdesign }}</h1>
-      <ul>
-        <li>{{ site.t[page.lang].webdesign }}</li>
-        <li>{{ site.t[page.lang].blogdesign }}</li>
-        <li>{{ site.t[page.lang].shopdesign }}</li>
-      </ul>
-    </li>
-    <li class="service">
-      <img src="{{ site.baseurl }}images/graphic.svg"/>
-      <h1>{{ site.t[page.lang].graphicdesign }}</h1>
-      <ul>
-        <li>{{ site.t[page.lang].identity }}</li>
-        <li>{{ site.t[page.lang].poster }}</li>
-        <li>{{ site.t[page.lang].signal }}</li>
-        <li>{{ site.t[page.lang].book }}</li>
-        <li>{{ site.t[page.lang].window }}</li>
-        <li>{{ site.t[page.lang].merchandising }}</li>
-      </ul>
-    </li>
-    <li class="service">
-      <img src="{{ site.baseurl }}images/multimedia.svg"/>
-      <h1>{{ site.t[page.lang].multimedia }}</h1>
-      <ul>
-        <li>{{ site.t[page.lang].photo }}</li>
-        <li>{{ site.t[page.lang].infography }}</li>
-        <li>{{ site.t[page.lang].presentation }}</li>
-      </ul>
-    </li>
-    <li class="service">
-      <img src="{{ site.baseurl }}images/formation.svg"/>
-      <h1>{{ site.t[page.lang].formation }}</h1>
-      <ul>
-        <li>{{ site.t[page.lang].license }}</li>
-        <li>{{ site.t[page.lang].freeformation }}</li>
-        <li>{{ site.t[page.lang].photoformation }}</li>
-        <li>{{ site.t[page.lang].webformation }}</li>
-      </ul>
-    </li>
-  </ul>
-</section>
+Baina bizitzak beste alde batetara eramaten zaitu, leku grisagoetara,
+zurrunagoetara, mundu zoragarri horiek ahaztu egiten dituzu eta mundanoagoak
+diren gauzei garrantzia handiago ematen diezu... honela bukatu nuen
+Geografiako karrera ikasten.
 
-<section id="portfolio">
-  <ul>
-    {% for project in site.projects %}
-    <li>
-      {% if project.thumbnail %}
-      <img src="{{ site.static_url }}thumbnails/{{ project.thumbnail }}"/>
-      {% endif %}
-      <div class="projectDescription">
-        <h1>{{ project.title }}</h1>
-        <h2>{{ project.subtitle }}</h2>
-        <p>{{ project.content }}</p>
-        {% if project.link %}
-        {% assign link = project.link %}
-        {% else %}
-        {% assign link = project.url %}
-        {% endif %}
-        <a class="redLink" href="{{ link }}"><span class="line"></span>{{ site.t[page.lang].goproject }}</a>
-      </div>
-    </li>
-    {% endfor %}
-  </ul>
-</section>
+Karrerako hasierako urteetan ikasgaiez disfrutatu egin nuen, hala ere,
+segituan konturatu nintzen mapak margotzea gehiago disfrutatzen nuela
+ikasgaiak ikastea baino.
 
+Neguko egun batean Labkaxitako hacklabera gonbidatu ninduten pythonen
+programatuko genuela eta. If, for, while... uff! Ze zaila! Baina aurrea jarraitu
+genuen, Django ikastera pasatuz. Django interesgarria egin zitzaidan, baina
+batez ere HTML eta CSSra iritsi ginen momentua. Orduan bai, etxean sentitu
+nintzen, barnean lotuta zegoen Iunetxo txikia askatu egin nuen eta sormena
+berriro piztu gauza berrik sortzeko.
 
-<section id="programs">
-  <h1>{{ site.t[page.lang].program }}</h1>
-  <ul class="iconList">
-    <li><a href="https://www.djangoproject.com/"><img src="{{ site.baseurl }}images/django.svg" alt="django" /><span>Django</span></a></li>
-    <li><a href="https://sass-lang.com"><img src="{{ site.baseurl }}images/sass.svg" alt="sass" /><span>Sass</span></a></li>
-    <li><a href="https://git-scm.com/"><img src="{{ site.baseurl }}images/git.svg" alt="git" /><span>Git</span></a></li>
-    <li><a href="https://inkscape.org"><img src="{{ site.baseurl }}images/inkscape.svg" alt="inkscape" /><span>Inkscape</span></a></li>
-    <li><a href="https://gimp.org"><img src="{{ site.baseurl }}images/gimp.svg" alt="gimp" /><span>Gimp</span></a></li>
-    <li><a href="https://darktable.org"><img src="{{ site.baseurl }}images/darktable.svg" alt="darktable" /><span>Darktable</span></a></li>
-    <li><a href="https://scribus.net"><img src="{{ site.baseurl }}images/scribus.svg" alt="scribus" /><span>Scribus</span></a></li>
-  </ul>
-</section>
+Ordurako nire ordenagailua Debian batekin nuen, pertsona burugogor bati esker
+eta aurrean ireki zitzaidan munduak bukaerarik ez zuela sentitu nuen.  Ez nuen
+denbora gehiago Adobeko programak crackeatzen pasatu beharko eta denbora hori
+gauza berriak ikasten inbertitu nezakeen.
 
-<section id="about" markdown="block">
-  <img src="{{ site.baseurl }}images/me.svg" />
-  <h1>Iune Trecet Obeso</h1>
+Nire lehenengo webgunea segituan etorri zen, lagun batek proiektu bat zuen
+esku artean eta ea parte hartu nahi nuen esan zidan. [Antxeta Irratiko
+webgunea](http://iragana.antxetamedia.info/) izan zen lehenengoa.
 
-  Ume moko bat nintzenetik, gurasoek, egia esaten badizuet amak, leku guztietara
-  orri eta margoekin eramaten gintuzten nire ahizpa eta neri.  Gure jolas
-  gogokoena hori zen, orri txuri bat hartu eta imajinazioan genituen mundu
-  zoragarri hoiek erreal egitea.
-
-  Baina bizitzak beste alde batetara eramaten zaitu, leku grisagoetara,
-  zurrunagoetara, mundu zoragarri horiek ahaztu egiten dituzu eta mundanoagoak
-  diren gauzei garrantzia handiago ematen diezu... honela bukatu nuen
-  Geografiako karrera ikasten.
-
-  Karrerako hasierako urteetan ikasgaiez disfrutatu egin nuen, hala ere,
-  segituan konturatu nintzen mapak margotzea gehiago disfrutatzen nuela
-  ikasgaiak ikastea baino.
-
-  Neguko egun batean Labkaxitako hacklabera gonbidatu ninduten pythonen
-  programatuko genuela eta. If, for, while... uff! Ze zaila! Baina aurrea jarraitu
-  genuen, Django ikastera pasatuz. Django interesgarria egin zitzaidan, baina
-  batez ere HTML eta CSSra iritsi ginen momentua. Orduan bai, etxean sentitu
-  nintzen, barnean lotuta zegoen Iunetxo txikia askatu egin nuen eta sormena
-  berriro piztu gauza berrik sortzeko.
-
-  Ordurako nire ordenagailua Debian batekin nuen, pertsona burugogor bati esker
-  eta aurrean ireki zitzaidan munduak bukaerarik ez zuela sentitu nuen.  Ez nuen
-  denbora gehiago Adobeko programak crackeatzen pasatu beharko eta denbora hori
-  gauza berriak ikasten inbertitu nezakeen.
-
-  Nire lehenengo webgunea segituan etorri zen, lagun batek proiektu bat zuen
-  esku artean eta ea parte hartu nahi nuen esan zidan. [Antxeta Irratiko
-  webgunea](http://iragana.antxetamedia.info/) izan zen lehenengoa.
-
-  Diseinu askean sartzen joan nintzen, tresnak ezagutuz eta filosofiarekin bat
-  eginez.
-
-  <ul class="iconList">
-    <li><img src="{{ site.baseurl }}images/debian.svg" alt="debian" /></li>
-    <li><img src="{{ site.baseurl }}images/copyleft.svg" alt="copyleft" /></li>
-    <li><img src="{{ site.baseurl }}images/caligraphy.svg" alt="caligraphy" /></li>
-    <li><img src="{{ site.baseurl }}images/serigraph.svg" alt="serigraph" /></li>
-    <li><img src="{{ site.baseurl }}images/craft.svg" alt="craft" /></li>
-    <li><img src="{{ site.baseurl }}images/coffee.svg" alt="coffee" /></li>
-    <li><img src="{{ site.baseurl }}images/driving.svg" alt="driving" /></li>
-    <li><img src="{{ site.baseurl }}images/series.svg" alt="series" /></li>
-  </ul>
-</section>
-
-
-<section id="contact">
-  <h1>{{ site.t[page.lang].want }}Diseinuren bat behar al duzu?</h1>
-  <a href="mailto:contact@iune.info">{{ site.t[page.lang].write }}idatzi nazazu!</a>
-</section>
+Diseinu askean sartzen joan nintzen, tresnak ezagutuz eta filosofiarekin bat
+eginez.
