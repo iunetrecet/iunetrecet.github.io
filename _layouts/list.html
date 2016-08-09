@@ -53,7 +53,8 @@ layout: default
 
 <section id="portfolio">
   <ul>
-    {% for project in site.projects %}
+    {% assign projects=site.projects | where:"lang", page.lang %}
+    {% for project in projects %}
     <li>
       {% if project.thumbnail %}
       <img src="{{ site.static_url }}thumbnails/{{ project.thumbnail }}"/>

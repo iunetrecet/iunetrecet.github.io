@@ -1,5 +1,6 @@
 ---
 layout: list
+ref: index
 lang: eu
 ---
 
