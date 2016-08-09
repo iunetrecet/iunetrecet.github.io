@@ -63,7 +63,12 @@ layout: default
         <h1>{{ project.title }}</h1>
         <h2>{{ project.subtitle }}</h2>
         <p>{{ project.content }}</p>
-        <a class="redLink" href="{{ project.link }}"><span class="line"></span>{{ site.t[page.lang].goproject }}</a>
+        {% if project.link %}
+        {% assign link = project.link %}
+        {% else %}
+        {% assign link = project.url %}
+        {% endif %}
+        <a class="redLink" href="{{ link }}"><span class="line"></span>{{ site.t[page.lang].goproject }}</a>
       </div>
     </li>
     {% endfor %}

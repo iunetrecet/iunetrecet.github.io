@@ -5,7 +5,6 @@ thumbnail: "donbosco.png"
 license: "cc-by-sa"
 images:
     - "donbosco.jpg"
-link: "http://iune.info/projects/donbosco.html"
 lang: eu
 ref: donbosco
 ---

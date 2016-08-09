@@ -5,7 +5,6 @@ thumbnail: "donibane.png"
 license: "cc-by-sa"
 images:
     - "donibane.jpg"
-link: "http://iune.info/projects/donibane.html"
 lang: es
 ref: donibane
 ---

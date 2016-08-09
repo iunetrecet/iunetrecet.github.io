@@ -5,7 +5,6 @@ thumbnail: "zerua.png"
 license: "cc-by-sa"
 images:
     - "zerua.png"
-link: "http://iune.info/projects/antzerki.html"
 lang: eu
 ref: antzerkia
 ---
