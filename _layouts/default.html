@@ -1,6 +1,6 @@
 <!doctype html>
 
-<html class="no-js" lang="en">
+<html class="no-js" lang="{% if page.lang %}{{ page.lang }}{% else %}en{% endif %}">
   <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
@@ -23,13 +23,27 @@
 
 
   <body>
+    {% assign home = site.pages | where:"ref", "index" | where: "lang", page.lang | first %}
     <header>
-      <a href="/"><img id="logo" alt="iune" src="{{ site.baseurl }}images/iune.svg" /></a>
+      <a href="{{ home.url }}"><img id="logo" alt="iune" src="{{ site.baseurl }}images/iune.svg" /></a>
       <ul id="social">
         <li><a href="{{ site.author.github }}"><img src="{{ site.baseurl }}images/github_alt.svg" /></a></li>
         <li><a href="{{ site.author.flickr }}"><img src="{{ site.baseurl }}images/flickr.svg" /></a></li>
         <li><a href="mailto:{{ site.author.email }}"><img src="{{ site.baseurl }}images/email.svg" /></a></li>
-        <li><a href="">es<span id="noTraslation">Todavía no existe la traducción</span></a></li>
+        {% assign projects = site.projects | where:"ref", page.ref | sort: 'lang' %}
+        {% for project in projects %}
+        <li><a href="{{ project.url }}" class="{{ project.lang }}">{{ project.lang }}</a></li>
+        {% endfor %}
+
+        {% assign pages = site.pages | where:"ref", page.ref | sort: 'lang' %}
+        {% for page in pages %}
+        <li><a href="{{ page.url }}" class="{{ page.lang }}">{{ page.lang }}</a></li>
+        {% endfor %}
+
+        {% assign posts = site.posts | where:"ref", post.ref | sort: 'lang' %}
+        {% for post in posts %}
+        <li><a href="{{ post.url }}" class="{{ post.lang }}">{{ post.lang }}</a></li>
+        {% endfor %}
       </ul>
     </header>
 
