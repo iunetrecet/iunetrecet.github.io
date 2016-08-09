@@ -16,21 +16,13 @@ collections:
 
 # URLs
 baseurl: "/"
-production_url: http://iune.info/
-permalink: /:categories/:year/:month/:day/:title
+permalink: pretty
 static_url: https://github.com/iunetrecet/iune_project_images/raw/master/projects/
 
 # Jekyll
 exclude: [".rvmrc", ".rbenv-version", "Rakefile", "vendor"]
 excerpt_separator: "\n"
-highlighter: true
-markdown: redcarpet
-sass:
-    sass_dir: _sass
-    style: :compressed
-redcarpet:
-    extensions: ["tables", "autolink", "fenced_code_blocks", "superscript",
-                "quote", "footnotes"]
+markdown: kramdown
 
 # trans
 t:

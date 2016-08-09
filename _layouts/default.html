@@ -13,8 +13,7 @@
     <meta name="viewport" content="width=device-width" />
 
     <link rel="shortcut icon" href="{{ site.baseurl }}images/favicon.ico" />
-    <link rel="stylesheet" type="text/css"
-                href="{{ site.baseurl }}css/main.css" />
+    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}css/main.css" />
     <script src="{{ site.baseurl }}js/vendor/modernizr.js"></script>
     <script src="{{ site.baseurl }}js/vendor/jquery.js"></script>
     <script src="{{ site.baseurl }}js/vendor/jquery.tinyscrollbar.js"></script>
@@ -27,9 +26,9 @@
     <header>
       <a href="/"><img id="logo" alt="iune" src="{{ site.baseurl }}images/iune.svg" /></a>
       <ul id="social">
-        <li><a href="https://github.com/iunetrecet"><img src="{{ site.baseurl }}images/github_alt.svg" /></a></li>
-        <li><a href="https://www.flickr.com/photos/iunetrecet"><img src="{{ site.baseurl }}images/flickr.svg" /></a></li>
-        <li><a href="mailto:contact@iune.iune.info"><img src="{{ site.baseurl }}images/email.svg" /></a></li>
+        <li><a href="{{ site.author.github }}"><img src="{{ site.baseurl }}images/github_alt.svg" /></a></li>
+        <li><a href="{{ site.author.flickr }}"><img src="{{ site.baseurl }}images/flickr.svg" /></a></li>
+        <li><a href="mailto:{{ site.author.email }}"><img src="{{ site.baseurl }}images/email.svg" /></a></li>
         <li><a href="">es<span id="noTraslation">Todavía no existe la traducción</span></a></li>
       </ul>
     </header>
