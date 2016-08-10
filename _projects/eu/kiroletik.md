@@ -4,7 +4,6 @@ subtitle: "Behe Bidasoako kirola, euskaraz"
 thumbnail: "kiroletik.png"
 license: "GPLv3"
 link: "http://kiroletik.eus/"
-lang: eu
 ref: kiroletik
 ---
 

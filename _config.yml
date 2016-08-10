@@ -20,6 +20,16 @@ defaults:
         type: projects
       values:
         layout: project
+    - scope:
+        path: projects/eu
+        type: projects
+      values:
+        lang: eu
+    - scope:
+        path: projects/es
+        type: projects
+      values:
+        lang: es
 
 # URLs
 baseurl: "/"

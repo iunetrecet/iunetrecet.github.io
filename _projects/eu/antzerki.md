@@ -5,7 +5,6 @@ thumbnail: "zerua.png"
 license: "cc-by-sa"
 images:
     - "zerua.png"
-lang: eu
 ref: antzerkia
 ---
 

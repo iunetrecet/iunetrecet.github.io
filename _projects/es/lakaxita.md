@@ -4,7 +4,6 @@ subtitle: "Kolektiboaren webgunea"
 thumbnail: "lakaxita.png"
 license: "GPLv3"
 link: "http://lakaxita.org/"
-lang: es
 ref: lakaxita
 ---
 

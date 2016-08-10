@@ -5,7 +5,6 @@ thumbnail: "donbosco.png"
 license: "cc-by-sa"
 images:
     - "donbosco.jpg"
-lang: eu
 ref: donbosco
 ---
 

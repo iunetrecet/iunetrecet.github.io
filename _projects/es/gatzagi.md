@@ -5,7 +5,6 @@ thumbnail: "gatzagi.png"
 license: "cc-by-sa"
 images:
     - "gatzagi.png"
-lang: es
 ref: gatzagi
 ---
 

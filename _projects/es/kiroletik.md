@@ -4,7 +4,6 @@ subtitle: "Deporte de Behe Bidasoako, en euskara"
 thumbnail: "kiroletik.png"
 license: "GPLv3"
 link: "http://kiroletik.eus/"
-lang: es
 ref: kiroletik
 ---
 
