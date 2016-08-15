@@ -18,15 +18,15 @@ Karrerako hasierako urteetan ikasgaiez disfrutatu egin nuen, hala ere,
 segituan konturatu nintzen mapak margotzea gehiago disfrutatzen nuela
 ikasgaiak ikastea baino.
 
-Neguko egun batean Labkaxitako hacklabera gonbidatu ninduten pythonen
-programatuko genuela eta. If, for, while... uff! Ze zaila! Baina aurrea jarraitu
+Neguko egun batean Labkaxitako hacklabera gonbidatu ninduten Pythonen
+programatuko genuela eta. If, for, while... uff! Ze zaila! Baina aurrera jarraitu
 genuen, Django ikastera pasatuz. Django interesgarria egin zitzaidan, baina
 batez ere HTML eta CSSra iritsi ginen momentua. Orduan bai, etxean sentitu
 nintzen, barnean lotuta zegoen Iunetxo txikia askatu egin nuen eta sormena
 berriro piztu gauza berrik sortzeko.
 
 Ordurako nire ordenagailua Debian batekin nuen, pertsona burugogor bati esker
-eta aurrean ireki zitzaidan munduak bukaerarik ez zuela sentitu nuen.  Ez nuen
+eta aurrean ireki zitzaidan munduak bukaerarik ez zuela sentitu nuen. Ez nuen
 denbora gehiago Adobeko programak crackeatzen pasatu beharko eta denbora hori
 gauza berriak ikasten inbertitu nezakeen.
 
@@ -35,4 +35,4 @@ esku artean eta ea parte hartu nahi nuen esan zidan. [Antxeta Irratiko
 webgunea](http://iragana.antxetamedia.info/) izan zen lehenengoa.
 
 Diseinu askean sartzen joan nintzen, tresnak ezagutuz eta filosofiarekin bat
-eginez.
+eginez. Hau dela eta, nire diseinuak askeak dira, kultura eta azken finean, mundu aske bat lortzeko.
