@@ -15,18 +15,21 @@ collections:
 
 
 defaults:
-    - scope:
+    -
+      scope:
         path: ""
         type: projects
       values:
         layout: project
-    - scope:
-        path: projects/eu
+    -
+      scope:
+        path: _projects/eu
         type: projects
       values:
         lang: eu
-    - scope:
-        path: projects/es
+    -
+      scope:
+        path: _projects/es
         type: projects
       values:
         lang: es
