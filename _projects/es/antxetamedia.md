@@ -3,7 +3,7 @@ title: "Antxetamedia"
 subtitle: "Página web para Antxeta Irratia"
 thumbnail: "antxetamedia.png"
 license: "GPLv3"
-link: "http://beta.antxetamedia.info/"
+link: "http://antxetamedia.eus/"
 ref: antxetamedia
 ---
 
