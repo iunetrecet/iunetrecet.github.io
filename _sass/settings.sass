@@ -1,83 +1,61 @@
-@font-face
-  font-family: "Alegreya"
-  src: url(../fonts/alegreya/Alegreya-Regular.ttf)
-@font-face
-  font-family: "Alegreya"
-  src: url(../fonts/alegreya/Alegreya-Bold.ttf)
-  font-weight: bold
-@font-face
-  font-family: "Alegreya"
-  src: url(../fonts/alegreya/Alegreya-Italic.ttf)
-  font-style: italic
-@font-face
-  font-family: "Alegreya"
-  src: url(../fonts/alegreya/Alegreya-BoldItalic.ttf)
-  font-weight: bold
-  font-style: italic
-
-@font-face
-  font-family: "AlegreyaSans"
-  src: url(../fonts/alegreyasans/AlegreyaSans-Medium.otf)
-@font-face
-  font-family: "AlegreyaSans"
-  src: url(../fonts/alegreyasans/AlegreyaSans-Bold.otf)
-  font-weight: bold
-@font-face
-  font-family: "AlegreyaSans"
-  src: url(../fonts/alegreyasans/AlegreyaSans-MediumItalic.otf)
-  font-style: italic
-@font-face
-  font-family: "AlegreyaSans"
-  src: url(../fonts/alegreyasans/AlegreyaSans-BoldItalic.otf)
-  font-weight: bold
-  font-style: italic
-
-@font-face
-  font-family: "AlegreyaSansSC"
-  src: url(../fonts/alegreyasans/AlegreyaSansSC-Regular.otf)
-@font-face
-  font-family: "AlegreyaSansSC"
-  src: url(../fonts/alegreyasans/AlegreyaSansSC-Bold.otf)
-  font-weight: bold
-@font-face
-  font-family: "AlegreyaSansSC"
-  src: url(../fonts/alegreyasans/AlegreyaSansSC-Italic.otf)
-  font-style: italic
-@font-face
-  font-family: "AlegreyaSansSC"
-  src: url(../fonts/alegreyasans/AlegreyaSansSC-BoldItalic.otf)
-  font-weight: bold
-  font-style: italic
-
-$sans: "AlegreyaSans"
-$serif: "Alegreya"
-$smallcaps: "AlegreyaSansSC"
-
-$lightred: #ff2a2a
-$red: #d40000
-$darkgrey: #1a1a1a
-$grey: #333333
 $lightgrey: #b3b3b3
 
-=border-box
-  box-sizing: border-box
+@font-face
+  font-family: "Alegreya Sans SC"
+  src: url(../fonts/alegreyasans/AlegreyaSansSC-Regular.otf)
 
-*
-  +border-box
+@font-face
+  font-family: "Aller light"
+  src: url(../fonts/Aller/Aller_Lt.ttf)
+@font-face
+  font-family: "Aller light"
+  src: url(../fonts/Aller/Aller_Rg.ttf)
+  font-weight: bold
+@font-face
+  font-family: "Aller light"
+  src: url(../fonts/Aller/Aller_LtIt.ttf)
+  font-style: italic
+@font-face
+  font-family: "Aller light"
+  src: url(../fonts/Aller/Aller-It.ttf)
+  font-weight: bold
+  font-style: italic
 
-.line
-  width: 2rem
-  border-bottom: solid .1rem
-  display: inline-block
-  vertical-align: middle
-  margin-right: .5em
-
-a.redLink
-  color: $lightred !important
-  font-family: $smallcaps
-  font-size: 1.2rem
-  border-color: $lightred
+$sans: "Aller light"
+$sc: "Alegreya Sans SC"
 
 a
-  color: $lightred
+  color: black
   text-decoration: none
+
+*
+  box-sizing: border-box
+
+//categories
+$a: #00dcdc
+$b: #f9005c
+$c: #f5c500
+$d: #00b200
+
+.hide
+  display: none !important
+
+.category
+  border-bottom: solid .4rem
+
+.web
+  border-bottom-color: $a
+.graphics
+  border-bottom-color: $b
+.free
+  border-bottom-color: $c
+.diy
+  border-bottom-color: $d
+
+p.date
+  color: #a1a1a1
+  margin-bottom: 0
+  a
+    color: #a1a1a1
+
+

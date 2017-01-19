@@ -1,6 +1,6 @@
 <!doctype html>
 
-<html class="no-js" lang="{% if page.lang %}{{ page.lang }}{% else %}en{% endif %}">
+<html>
   <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
@@ -12,60 +12,35 @@
     <meta name="author" content="{{ site.description.author.name }}" />
     <meta name="viewport" content="width=device-width" />
 
-    {% assign projects=site.projects | where:"ref", page.ref | sort: 'lang' %}
-    {% for project in projects %}
-    <link rel="alternate" hreflang="{{ project.lang }}" href="{{ project.url }}" />
-    {% endfor %}
-    {% assign posts=site.posts | where:"ref", page.ref | sort: 'lang' %}
-    {% for post in posts %}
-    <link rel="alternate" hreflang="{{ post.lang }}" href="{{ post.url }}" />
-    {% endfor %}
-    {% assign pages=site.pages | where:"ref", page.ref | sort: 'lang' %}
-    {% for page in pages %}
-    <link rel="alternate" hreflang="{{ page.lang }}" href="{{ page.url }}" />
-    {% endfor %}
-
-    <link rel="shortcut icon" href="{{ site.baseurl }}images/favicon.ico" />
-    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}css/main.css" />
-    <script src="{{ site.baseurl }}js/vendor/modernizr.js"></script>
-    <script src="{{ site.baseurl }}js/vendor/jquery.js"></script>
-    <script src="{{ site.baseurl }}js/foundation.js"></script>
-    <script src="{{ site.baseurl }}js/app.js"></script>
+    <link rel="shortcut icon" href="images/favicon.ico" />
+    <link rel="stylesheet" type="text/css" href="/css/main.css" />
   </head>
 
 
   <body>
-    {% assign home = site.pages | where:"ref", "index" | where: "lang", page.lang | first %}
-    <header>
-      <a href="{{ home.url }}"><img id="logo" alt="iune" src="{{ site.baseurl }}images/iune.svg" /></a>
-      <ul id="social">
-        <li><a href="{{ site.author.github }}"><img src="{{ site.baseurl }}images/github_alt.svg" /></a></li>
-        <li><a href="{{ site.author.flickr }}"><img src="{{ site.baseurl }}images/flickr.svg" /></a></li>
-        <li><a href="mailto:{{ site.author.email }}"><img src="{{ site.baseurl }}images/email.svg" /></a></li>
-        {% assign projects = site.projects | where:"ref", page.ref | sort: 'lang' %}
-        {% for project in projects %}
-        <li><a href="{{ project.url }}" class="{{ project.lang }}">{{ project.lang }}</a></li>
-        {% endfor %}
+    <div id="wrap">
 
-        {% assign pages = site.pages | where:"ref", page.ref | sort: 'lang' %}
-        {% for page in pages %}
-        <li><a href="{{ page.url }}" class="{{ page.lang }}">{{ page.lang }}</a></li>
-        {% endfor %}
+      <header>
+        <h1><a href="/"><img id="logo" alt="iune's lab" src="/images/iunelab.svg" /></a></h1>
+        <ul id="social">
+          <li><a href="http://iune.info">portfolio</a></li>
+          <li><a href="https://github.com/iunetrecet">github</a></li>
+          <li><a href="https://www.flickr.com/photos/iunetrecet/">flickr</a></li>
+          <li><a href="mailto:contact@iune.info">email</a></li>
+        </ul>
+      </header>
 
-        {% assign posts = site.posts | where:"ref", post.ref | sort: 'lang' %}
-        {% for post in posts %}
-        <li><a href="{{ post.url }}" class="{{ post.lang }}">{{ post.lang }}</a></li>
-        {% endfor %}
-      </ul>
-    </header>
+      <main>
+        {{ content }}
+      </main>
 
-    <main>
-      {{ content }}
-    </main>
+    </div>
 
     <footer>
       <p>Copy me, remix me</p>
-      <img id="license" src="{{ site.baseurl }}images/cc-by-sa.svg" alt="cc-by-sa" />
+      <img class="license" src="/images/cc-by-sa.svg" alt="cc-by-sa" />
+      <img class="license" src="/images/gpl.svg" alt="gpl" />
     </footer>
+
   </body>
 </html>

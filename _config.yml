@@ -8,32 +8,6 @@ author:
     flickr: https://flickr.com/photos/iunetrecet/
 timezone: "Europe/Paris"
 
-# Collections
-collections:
-    projects:
-        output: true
-
-
-defaults:
-    -
-      scope:
-        path: ""
-        type: projects
-      values:
-        layout: project
-    -
-      scope:
-        path: _projects/eu
-        type: projects
-      values:
-        lang: eu
-    -
-      scope:
-        path: _projects/es
-        type: projects
-      values:
-        lang: es
-
 # URLs
 baseurl: "/"
 permalink: pretty
