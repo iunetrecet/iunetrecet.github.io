@@ -8,10 +8,6 @@ author:
     flickr: https://flickr.com/photos/iunetrecet/
 timezone: "Europe/Paris"
 
-# URLs
-baseurl: "/"
-permalink: pretty
-static_url: https://github.com/iunetrecet/iune_project_images/raw/master/projects/
 
 # Jekyll
 exclude: [".rvmrc", ".rbenv-version", "Rakefile", "vendor"]
