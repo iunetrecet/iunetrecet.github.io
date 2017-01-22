@@ -2,7 +2,7 @@
 layout: post
 title: "Kiroletik kirol bloga"
 thumbnail: "images/posts/kiroletik/kiroletik.png"
-category: "web design"
+category: "web"
 date: 2015-04-27
 author: Iune Trecet
 ---

@@ -2,7 +2,7 @@
 layout: post
 title: "Antxeta irratiaren webgunea"
 thumbnail: "images/posts/antxetamedia/antxetamedia.png"
-category: "web design"
+category: "web"
 date: 2016-07-10
 author: Iune Trecet
 ---

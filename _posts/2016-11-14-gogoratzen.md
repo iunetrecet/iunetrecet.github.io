@@ -2,7 +2,7 @@
 layout: post
 title: "Gogoratzen nauzuenetan webgunea"
 thumbnail: "images/posts/gogoratzen/gogoratzen.png"
-category: "web design"
+category: "web"
 date: 2016-11-14
 author: Iune Trecet
 ---
