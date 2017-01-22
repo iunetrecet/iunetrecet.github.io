@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Kiroletik"
+title: "Kiroletik kirol bloga"
 thumbnail: "images/posts/kiroletik/kiroletik.png"
 category: "web design"
 date: 2015-04-27
