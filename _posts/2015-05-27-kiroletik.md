@@ -16,5 +16,7 @@ Diseinua sinplea da, edukiari garrantzia emanez, helburua irakurleentzako erosoa
 itxura serioa isladatzen du, baina bannerraren irudiaren ondorioz, lehenengo gainbegiratuan argi ikusten da kirolei
 buruzko webgunea dela.
 
+<a class="goProject {{ page.category }}" href="https://github.com/GISAElkartea/kiroletik">Iturburu-kodera joan</a>
+
 <a class="goProject {{ page.category }}" href="https://kiroletik.eus">Webgunera joan</a>
 

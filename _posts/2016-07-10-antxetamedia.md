@@ -18,5 +18,7 @@ itxurara egokituz. Diseinuari dagokionez, egitura argiago ikusteko helburua izan
 txarteletan banatuaz. Itxura formal baina alaia isladatu nahi nuen ere, grisak eta berde argiaren arteko konbinazioa
 erabiliz.
 
+<a class="goProject {{ page.category }}" href="https://github.com/GISAElkartea/amv2">Iturburu-kodera joan</a>
+
 <a class="goProject {{ page.category }}" href="https://antxetamedia.eus">Webgunera joan</a>
 
