@@ -3,7 +3,7 @@ layout: post
 title: "Ahomentan sailaren webgunea"
 thumbnail: "images/posts/ahomentan/ahomentan.png"
 category: "web"
-date: 2017-07-10
+date: 2017-05-20
 author: Iune Trecet
 ---
 
