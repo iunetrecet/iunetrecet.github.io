@@ -2,7 +2,7 @@
 layout: post
 title: "Gogoratzen nauzuenetan libururako ilustrazioa"
 thumbnail: "images/posts/marcialek/marcialek.png"
-category: "multimedia"
+category: "graphic"
 date: 2016-11-14
 author: Iune Trecet
 ---

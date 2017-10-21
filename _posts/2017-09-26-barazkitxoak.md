@@ -3,7 +3,7 @@ layout: post
 title: "Nere barazkitxoak"
 thumbnail: "images/posts/barazkitxoak/barazkitxoak.png"
 category: "multimedia"
-date: 2017-10-26
+date: 2017-09-26
 author: Iune Trecet
 ---
 
