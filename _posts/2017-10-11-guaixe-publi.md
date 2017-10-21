@@ -9,4 +9,4 @@ author: Iune Trecet
 
 Guaixe aldizkariarentzako bazkideak lortzeko kanpaina berria.
 
-<img src="/images/posts/guaixebazkide/bazkide_kit.png" alt="Bazkide kita"/>
+<img src="/images/posts/guaixebazkide/bazkide_kit.gif" alt="Bazkide kita"/>
