@@ -1,0 +1,12 @@
+---
+layout: post
+title: "Guaixe bazkide kita"
+thumbnail: "images/posts/guaixebazkide/bazkide_kit.png"
+category: "graphic"
+date: 2017-10-11
+author: Iune Trecet
+---
+
+Guaixe aldizkariarentzako bazkideak lortzeko kanpaina berria.
+
+<img src="/images/posts/guaixebazkide/bazkide_kit.png" alt="Bazkide kita"/>
