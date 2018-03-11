@@ -7,9 +7,9 @@ date: 2017-11-12
 author: Iune Trecet
 ---
 
-Cartel hecho para el colectivo Zambra Málaga para un taller de autodefensa
-feminista, con ilustración realizado por mí.
+Malagako Zambra kolektiboak antolatutako autodefentsa tailerrerako kartela, nik
+egingdako ilustrazioekin.
 
-Tipografías: Luna y Amatic.
+Tipografiak: Luna y Amatic.
 
 <img src="/images/posts/autodefensa/autodefensa_trazatua.svg" alt="Autodefensa feminista">
