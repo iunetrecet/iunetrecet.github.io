@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Cartel autodefensa feminista"
+title: "Autodefentsa feminista kartela"
 thumbnail: "images/posts/autodefensa/autodefensa.png"
 category: "graphic"
 date: 2017-11-12
