@@ -2,7 +2,7 @@
 layout: post
 title: "Autodefentsa feminista kartela"
 thumbnail: "images/posts/autodefensa/autodefensa.png"
-category: "graphic"
+category: "grafikoa"
 date: 2017-11-12
 author: Iune Trecet
 ---

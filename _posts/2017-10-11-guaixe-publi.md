@@ -2,7 +2,7 @@
 layout: post
 title: "Guaixe bazkide kita"
 thumbnail: "images/posts/guaixebazkide/bazkide_kit.png"
-category: "graphic"
+category: "grafikoa"
 date: 2017-10-11
 author: Iune Trecet
 ---

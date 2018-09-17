@@ -2,7 +2,7 @@
 layout: post
 title: "Elatzetako bertso bazkariaren kartela"
 thumbnail: "images/posts/bertsobazkaria/bertsobazkaria.png"
-category: "graphic"
+category: "grafikoa"
 date: 2018-02-17
 author: Iune Trecet
 ---

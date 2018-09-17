@@ -2,7 +2,7 @@
 layout: post
 title: "Derechos sexuales y (no) reproductivos hitzaldia"
 thumbnail: "images/posts/derechos/derechos.png"
-category: "graphic"
+category: "grafikoa"
 date: 2017-12-22
 author: Iune Trecet
 ---
