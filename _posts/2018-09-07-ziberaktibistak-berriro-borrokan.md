@@ -16,3 +16,6 @@ Bestetik, 13. artikuluaren arabera, gainera, sareko publikazio plataformek poliz
 Honek guztiak ezagutzen dugun Internet sarea goitik behera aldatuko duela argi dago. Nire bizitzan garrantzia handia duen webgune batek arazo handiak izan ditzake, kultura askearen adierazle handienetako batek, Wikipediak. Aipamen asko erabiltzen ditu munduko entziklopedia handienak eta horrek arazoak ekarri ahal dizkio. Eta nola izango gara jakintsu Wikipedia gabeko munduan?
 
 Irailaren 12ko bozketa baino lehen, Internet sare aske eta multinazional-poliziarik gabekoa nahi dugula esan ahal izateko Copyrightaren direktibaren aurkako talde ziberaktibistek webgune bat martxan jarri dute. Gure parlamentariekin modu erraz batean email edo telefono bidez kontaktuan jartzeko aukera daukagu es.saveyourinternet.eu webgunean.
+
+<a
+href="https://guaixe.eus/sakana/1536245330622-ziberaktibistak-berriro-borrokan">Guaixe publikatutako artikulua</a>
