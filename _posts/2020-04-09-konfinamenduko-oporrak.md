@@ -9,4 +9,4 @@ author: Iune Trecet
 
 Konfinamenduko udaberriko oporren harira egindako Guaixeren azala.
 
-<img src="/images/posts/oporrak/oporrak.png" alt="Oporren azala">
+<img src="/images/posts/oporrak/oporrak.jpg" alt="Oporren azala">

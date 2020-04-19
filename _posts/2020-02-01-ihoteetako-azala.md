@@ -9,4 +9,4 @@ author: Iune Trecet
 
 2020ko ihoteen harira egindako Guaixeren azala.
 
-<img src="/images/posts/ihoteak/ihoteak.png" alt="Ihoteeen azala">
+<img src="/images/posts/ihoteak/ihoteak.jpg" alt="Ihoteeen azala">

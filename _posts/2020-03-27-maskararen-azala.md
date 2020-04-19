@@ -9,4 +9,4 @@ author: Iune Trecet
 
 Koronabirusaren konfinamenduaren harira egindako Guaixeren azala.
 
-<img src="/images/posts/maskara/maskara.png" alt="Maskararen azala">
+<img src="/images/posts/maskara/maskara.jpg" alt="Maskararen azala">
