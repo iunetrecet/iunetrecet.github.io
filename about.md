@@ -19,3 +19,5 @@ Ordurako nire ordenagailua Debian batekin nuen, pertsona burugogor bati esker et
 Nire lehenengo webgunea segituan etorri zen, lagun batek proiektu bat zuen esku artean eta ea parte hartu nahi nuen esan zidan. Antxeta Irratiko webgunea izan zen lehenengoa.
 
 Diseinu askean sartzen joan nintzen, tresnak ezagutuz eta filosofiarekin bat eginez. Hau dela eta, nire diseinuak askeak dira, kultura eta azken finean, mundu aske bat lortzeko.
+
+Orain, <a href="https://www.guaixe.eus">Guaixe</a> Sakanako komunikabidean maketatzaile eta diseinatzaile moduan lan egiten dut.
